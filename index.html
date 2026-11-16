@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3B Kent Modelleme Şefliği</title>
+<meta name="description" content="İBB 3B Kent Modelleme Şefliği — ekip LinkedIn hesapları ve 3B İstanbul uygulaması.">
+<style>
+  :root {
+    --bg: #f4f6f9;
+    --card: #ffffff;
+    --text: #14213d;
+    --muted: #5b6472;
+    --border: #dde2ea;
+    --accent: #0a66c2;
+    --hero-1: #0b3d91;
+    --hero-2: #1479d4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117;
+      --card: #161b22;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --border: #30363d;
+      --accent: #58a6ff;
+      --hero-1: #1558c0;
+      --hero-2: #1f8bea;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 16px;
+  }
+  main { width: 100%; max-width: 480px; }
+  header { text-align: center; margin-bottom: 28px; }
+  .logo {
+    width: 88px; height: 88px; margin: 0 auto 16px;
+    border-radius: 24px;
+    background: linear-gradient(135deg, var(--hero-1), var(--hero-2));
+    display: grid; place-items: center;
+    color: #fff; font-weight: 800; font-size: 34px; letter-spacing: -1px;
+  }
+  h1 { margin: 0 0 6px; font-size: 24px; line-height: 1.25; }
+  .sub { margin: 0; color: var(--muted); font-size: 15px; }
+
+  a.link {
+    display: flex; align-items: center; gap: 14px;
+    padding: 16px 18px; margin-bottom: 12px;
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 14px; color: inherit; text-decoration: none;
+    transition: transform .12s ease, border-color .12s ease;
+  }
+  a.link:hover, a.link:focus-visible { transform: translateY(-2px); border-color: var(--accent); outline: none; }
+  a.link .icon {
+    flex: none; width: 40px; height: 40px; border-radius: 10px;
+    background: var(--accent); color: #fff;
+    display: grid; place-items: center; font-weight: 700; font-size: 15px;
+  }
+  a.link .name { font-weight: 600; font-size: 16px; }
+  a.link .role { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  a.link .arrow { margin-left: auto; color: var(--muted); }
+
+  a.hero {
+    background: linear-gradient(135deg, var(--hero-1), var(--hero-2));
+    border: 0; color: #fff; margin-bottom: 28px; padding: 20px 20px;
+  }
+  a.hero .icon { background: rgba(255,255,255,.2); }
+  a.hero .role, a.hero .arrow { color: rgba(255,255,255,.85); }
+  a.hero .name { font-size: 18px; }
+
+  h2 {
+    font-size: 12px; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--muted); margin: 0 0 12px 4px; font-weight: 600;
+  }
+  footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 28px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo">3B</div>
+    <h1>3B Kent Modelleme Şefliği</h1>
+    <p class="sub">İstanbul Büyükşehir Belediyesi</p>
+  </header>
+
+  <a class="link hero" href="https://3bistanbul.ibb.gov.tr" target="_blank" rel="noopener">
+    <span class="icon">3B</span>
+    <span>
+      <div class="name">3B İstanbul</div>
+      <div class="role">3bistanbul.ibb.gov.tr</div>
+    </span>
+    <span class="arrow">↗</span>
+  </a>
+
+  <h2>LinkedIn</h2>
+
+  <!-- Her hesap için href'i gerçek LinkedIn adresiyle değiştirin -->
+  <a class="link" href="https://www.linkedin.com/in/KULLANICI-1" target="_blank" rel="noopener">
+    <span class="icon">in</span>
+    <span>
+      <div class="name">Ad Soyad</div>
+      <div class="role">Ünvan</div>
+    </span>
+    <span class="arrow">↗</span>
+  </a>
+
+  <a class="link" href="https://www.linkedin.com/in/KULLANICI-2" target="_blank" rel="noopener">
+    <span class="icon">in</span>
+    <span>
+      <div class="name">Ad Soyad</div>
+      <div class="role">Ünvan</div>
+    </span>
+    <span class="arrow">↗</span>
+  </a>
+
+  <a class="link" href="https://www.linkedin.com/in/KULLANICI-3" target="_blank" rel="noopener">
+    <span class="icon">in</span>
+    <span>
+      <div class="name">Ad Soyad</div>
+      <div class="role">Ünvan</div>
+    </span>
+    <span class="arrow">↗</span>
+  </a>
+
+  <footer>3B Kent Modelleme Şefliği · İBB</footer>
+</main>
+</body>
+</html>
